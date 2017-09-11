@@ -1,0 +1,168 @@
+@font-face {
+  font-family: font;
+  src: url('../font/兰亭细黑 GBK.TTF') format('truetype');
+}
+body {
+  font-family: font;
+}
+.container {
+  width: 1226px;
+  margin: 0 auto;
+}
+a {
+  color: #000;
+}
+a:hover {
+  color: #ff6700;
+}
+/*公共样式 over*/
+/*topbar start*/
+.topbar {
+  height: 40px;
+  line-height: 40px;
+  font-size: 10px;
+  background: #333;
+  color: #b0b0b0;
+  text-align: center;
+  overflow: hidden;
+}
+.topbar .topbar-nav {
+  float: left;
+}
+.topbar .topbar-nav a {
+  color: #b0b0b0;
+}
+.topbar .topbar-nav a:hover {
+  color: #fff;
+}
+.topbar .topbar-nav span {
+  color: #555;
+  display: inline-block;
+  width: 8px;
+}
+.topbar .topbar-info {
+  float: left;
+  float: right;
+}
+.topbar .topbar-info a {
+  color: #b0b0b0;
+}
+.topbar .topbar-info a:hover {
+  color: #fff;
+}
+.topbar .topbar-info span {
+  color: #555;
+  display: inline-block;
+  width: 8px;
+}
+.topbar .topbar-cart {
+  width: 120px;
+  float: right;
+  margin-left: 20px;
+  background: #424242;
+  position: relative;
+}
+.topbar .topbar-cart .cart-menu {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  min-height: 96px;
+  width: 314px;
+  right: 0;
+  top: 40px;
+  background: #fff;
+  position: absolute;
+  display: none;
+}
+/*topbar over*/
+/*header start*/
+.header {
+  height: 100px;
+  border-bottom: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+.header .container {
+  display: flex;
+  position: relative;
+}
+.header .header-logo {
+  width: 49px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.header .header-logo .header-logo-box {
+  position: absolute;
+  left: -49px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  height: 49px;
+  background: #ff6801;
+}
+.header .header-nav {
+  margin-left: 60px;
+}
+.header .header-nav ul {
+  display: flex;
+}
+.header .header-nav ul li {
+  height: 100px;
+  line-height: 100px;
+  margin: 0 8px 0 8px;
+}
+.header .header-nav ul li .container {
+  width: 100%;
+  height: 230px;
+  position: absolute;
+  left: 0;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+.header .header-search {
+  width: 296px;
+  height: 48px;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.header .header-search .header-search-box {
+  width: 243px;
+  height: 46px;
+}
+.header .header-search .header-search-box input {
+  width: 243px;
+  height: 44px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding-left: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+.header .header-search .header-search-box button {
+  font-size: 8px;
+  border: none;
+  color: #776e7f;
+  background: #ecece6;
+  position: absolute;
+  top: 50%;
+  right: 60px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.header .header-search .header-search-box button:nth-child(3) {
+  right: 150px;
+}
+.header .header-search .header-search-button {
+  border-left: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  width: 52px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+}
