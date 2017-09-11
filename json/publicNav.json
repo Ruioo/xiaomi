@@ -1,0 +1,312 @@
+{
+	"phone" : [
+		{
+			"id" : "mix2",
+			"name" : "小米MIX 2",
+			"flag" : "新品",
+			"price" : "3299元起",
+			"url" : "#",
+			"src" : "../image/public/phone/mix2.png"
+		},
+		{
+			"id" : "note3",
+			"name" : "小米Note 3",
+			"flag" : "新品",
+			"price" : "2499元起",
+			"url" : "#",
+			"src" : "../image/public/phone/note3.png"
+		},
+		{
+			"id" : "mi6",
+			"name" : "小米6",
+			"flag" : "",
+			"price" : "2499元起",
+			"url" : "#",
+			"src" : "../image/public/phone/xm6.png"
+		},
+		{
+			"id" : "max2",
+			"name" : "小米Max 2",
+			"flag" : "享多重优惠",
+			"price" : "1599元起",
+			"url" : "#",
+			"src" : "../image/public/phone/max2.png"
+		},
+		{
+			"id" : "5x",
+			"name" : "小米5X",
+			"flag" : "新品",
+			"price" : "1299元起",
+			"url" : "#",
+			"src" : "../image/public/phone/5x.jpg"
+		},
+		{
+			"id" : "note2",
+			"name" : "小米Note 2",
+			"flag" : "下单立减600",
+			"price" : "2799元起",
+			"url" : "#",
+			"src" : "../image/public/phone/NOTE2.jpg"
+		}
+	],
+	"hongmi" : [
+		{
+			"id" : "hmn5abz",
+			"name" : "红米Note 5A 标准版",
+			"flag" : "新品",
+			"price" : "699元起",
+			"url" : "#",
+			"src" : "../image/public/hongmi/hm5abz.png"
+		},
+		{
+			"id" : "hmn5agp",
+			"name" : "红米Note 5A 高配版",
+			"flag" : "新品",
+			"price" : "899元起",
+			"url" : "#",
+			"src" : "../image/public/hongmi/hm5agp.jpg"
+		},
+		{
+			"id" : "hmn4x",
+			"name" : "红米Note 4X",
+			"flag" : "享免息",
+			"price" : "999元起",
+			"url" : "#",
+			"src" : "../image/public/hongmi/hmn4x.jpg"
+		},
+		{
+			"id" : "hm4X",
+			"name" : "红米4X",
+			"flag" : "享免息",
+			"price" : "699元起",
+			"url" : "#",
+			"src" : "../image/public/hongmi/hm4x.jpg"
+		},
+		{
+			"id" : "hm4",
+			"name" : "红米4",
+			"flag" : "",
+			"price" : "799元起",
+			"url" : "#",
+			"src" : "../image/public/hongmi/hm4.jpg"
+		}
+	],
+	"pad" : [
+		{
+			"id" : "pad3",
+			"name" : "小米平板3 64GB",
+			"flag" : "",
+			"price" : "1499元",
+			"url" : "#",
+			"src" : "../image/public/pad/pad3.png"
+		},
+		{
+			"id" : "bjbAir12.5",
+			"name" : "小米笔记本Air 12.5\"",
+			"flag" : "",
+			"price" : "3599元",
+			"url" : "#",
+			"src" : "../image/public/pad/bjbAir12.5.jpg"
+		},
+		{
+			"id" : "bjbAir13.3",
+			"name" : "小米笔记本Air 13.3\"",
+			"flag" : "",
+			"price" : "4999元",
+			"url" : "#",
+			"src" : "../image/public/pad/bjbAir13.3.jpg"
+		},
+		{
+			"id" : "bjbPro15.6",
+			"name" : "小米笔记本Pro 15.6/\"",
+			"flag" : "",
+			"price" : "1499元",
+			"url" : "#",
+			"src" : "../image/public/pad/pad3.png"
+		}
+	],
+	"tv" : [
+		{
+			"id" : "tv4_49",
+			"name" : "小米电视4 49英寸",
+			"flag" : "超薄旗舰",
+			"price" : "3299元",
+			"url" : "#",
+			"src" : "../image/public/TV/tv4a_49.png"
+		},
+		{
+			"id" : "tv4_55",
+			"name" : "小米电视4 55英寸",
+			"flag" : "超薄旗舰",
+			"price" : "3999元",
+			"url" : "#",
+			"src" : "../image/public/TV/tv4_55.png"
+		},
+		{
+			"id" : "tv4_65",
+			"name" : "小米电视4 65英寸",
+			"flag" : "超薄旗舰",
+			"price" : "8999元",
+			"url" : "#",
+			"src" : "../image/public/TV/tv4_65.png"
+		},
+		{
+			"id" : "tv4a_43",
+			"name" : "小米电视4 65英寸",
+			"flag" : "热卖",
+			"price" : "1999元",
+			"url" : "#",
+			"src" : "../image/public/TV/tv4a_43.png"
+		},
+		{
+			"id" : "tv4a_49",
+			"name" : "小米电视4 49英寸",
+			"flag" : "热卖",
+			"price" : "2299元",
+			"url" : "#",
+			"src" : "../image/public/TV/tv4a_49.png"
+		},
+		{
+			"id" : "tvAll",
+			"name" : "查看全部",
+			"flag" : "",
+			"price" : "小米电视",
+			"url" : "#",
+			"src" : "../image/public/TV/tvAll.png"
+		}
+	],
+	"box" : [
+		{
+			"id" : "box3s",
+			"name" : "小米盒子3s",
+			"flag" : "",
+			"price" : "299元",
+			"url" : "#",
+			"src" : "../image/public/box/box3s.png"
+		},
+		{
+			"id" : "box3c",
+			"name" : "小米盒子3c",
+			"flag" : "",
+			"price" : "229元",
+			"url" : "#",
+			"src" : "../image/public/box/box3c.png"
+		},
+		{
+			"id" : "box3strong",
+			"name" : "小米盒子3 增强版",
+			"flag" : "",
+			"price" : "399元",
+			"url" : "#",
+			"src" : "../image/public/box/box3strong.jpg"
+		},
+		{
+			"id" : "homeMovie",
+			"name" : "小米家庭影院",
+			"flag" : "",
+			"price" : "1999元",
+			"url" : "#",
+			"src" : "../image/public/box/homeMovie.png"
+		}
+	],
+	"router" : [
+		{
+			"id" : "routerHD",
+			"name" : "小米路由器 HD/Pro",
+			"flag" : "大容量",
+			"price" : "499元起",
+			"url" : "#",
+			"src" : "../image/public/router/routerHD.png"
+		},
+		{
+			"id" : "router3g",
+			"name" : "小米路由器 3G",
+			"flag" : "双千兆",
+			"price" : "249元",
+			"url" : "#",
+			"src" : "../image/public/router/router3g.png"
+		},
+		{
+			"id" : "router3",
+			"name" : "小米路由器 3",
+			"flag" : "双频",
+			"price" : "129元",
+			"url" : "#",
+			"src" : "../image/public/router/router3.png"
+		},
+		{
+			"id" : "router3c",
+			"name" : "小米路由器 3C",
+			"flag" : "包邮",
+			"price" : "99元",
+			"url" : "#",
+			"src" : "../image/public/router/router3c.png"
+		},
+		{
+			"id" : "wifiDcm",
+			"name" : "小米WiFi电磁猫",
+			"flag" : "新品",
+			"price" : "249元",
+			"url" : "#",
+			"src" : "../image/public/router/wifiDlm.png"
+		},
+		{
+			"id" : "wifiStrong",
+			"name" : "小米WiFi放大器 2",
+			"flag" : "",
+			"price" : "49元",
+			"url" : "#",
+			"src" : "../image/public/router/wifiStrong.jpg"
+		}
+	],
+	"other" : [
+		{
+			"id" : "UAV",
+			"name" : "小米无人机",
+			"flag" : "航拍利器",
+			"price" : "2999元",
+			"url" : "#",
+			"src" : "../image/public/intelligent-hardware/UAV.jpg"
+		},
+		{
+			"id" : "bracelet2",
+			"name" : "小米手环2",
+			"flag" : "包邮",
+			"price" : "149元",
+			"url" : "#",
+			"src" : "../image/public/intelligent-hardware/bracelet2.png"
+		},
+		{
+			"id" : "clearWater",
+			"name" : "小米净水器",
+			"flag" : "",
+			"price" : "1499元",
+			"url" : "#",
+			"src" : "../image/public/intelligent-hardware/clearWater.png"
+		},
+		{
+			"id" : "sweepR",
+			"name" : "米家扫地机器人",
+			"flag" : "",
+			"price" : "1699元",
+			"url" : "#",
+			"src" : "../image/public/intelligent-hardware/sweep.jpg"
+		},
+		{
+			"id" : "cooker",
+			"name" : "米家压力IH电饭煲",
+			"flag" : "",
+			"price" : "999元",
+			"url" : "#",
+			"src" : "../image/public/intelligent-hardware/IHcooker.jpg"
+		},
+		{
+			"id" : "all",
+			"name" : "查看全部",
+			"flag" : "",
+			"price" : "智能硬件",
+			"url" : "#",
+			"src" : "../image/public/intelligent-hardware/all.jpg"
+		}
+	]
+}

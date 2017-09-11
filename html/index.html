@@ -3,13 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>小米商城 - 小米6、红米Note 5A、小米5X、小米笔记本官方网站</title>
+	
 	<link rel="stylesheet" href="../css/all.css">
 	<link rel="stylesheet" href="../css/public.css">
+	<script id="header-nav-menu" type="text/html">
+	{{each arr as value i}}
+		<li>
+			<p class="flag">{{ value.flag }}</p>
+			<a href="{{ value.url }}"><img src="{{ value.src }}" alt="{{ value.name }}"></a>
+			<p class="title"><a href="{{ value.url }}">{{ value.name }}</a></p>
+			<p class="price">{{ value.price }}</p>
+		</li> 
+		<span></span>
+	{{/each}}
+</script>
 </head>
 <body>
 	<div id="topbar"></div>
 	<div id="header"></div>
+	<div id="main">
+		
+	</div>
+	<div id="footer"></div>
 </body>
 </html>
 <script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jQuery.color.js"></script>
+<script type="text/javascript" src="../js/template.js"></script>
 <script type="text/javascript" src="../js/public.js"></script>
