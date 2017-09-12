@@ -3,26 +3,266 @@
 <head>
 	<meta charset="UTF-8">
 	<title>小米商城 - 小米6、红米Note 5A、小米5X、小米笔记本官方网站</title>
-	
-	<link rel="stylesheet" href="../css/all.css">
-	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" type="text/css" href="../css/all.css">
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
 	<script id="header-nav-menu" type="text/html">
-	{{each arr as value i}}
-		<li>
-			<p class="flag">{{ value.flag }}</p>
-			<a href="{{ value.url }}"><img src="{{ value.src }}" alt="{{ value.name }}"></a>
-			<p class="title"><a href="{{ value.url }}">{{ value.name }}</a></p>
-			<p class="price">{{ value.price }}</p>
-		</li> 
-		<span></span>
-	{{/each}}
-</script>
+		{{each arr as value i}}
+			<li>
+				<p class="flag">{{ value.flag }}</p>
+				<a href="{{ value.url }}"><img src="{{ value.src }}" alt="{{ value.name }}"></a>
+				<p class="title"><a href="{{ value.url }}">{{ value.name }}</a></p>
+				<p class="price">{{ value.price }}</p>
+			</li> 
+			<span></span>
+		{{/each}}
+	</script>
+	<script id="header-nav-item" type="text/html">
+		{{each arr as value i}}
+			<li>
+				<div>
+					<img src="{{ value.srcs }}" alt="">
+					<span>{{ value.name }}</span>
+				</div>
+				<input class="flag" type="button" value="{{ value.flag }}">
+			</li>
+		{{/each}}
+	</script>
 </head>
 <body>
 	<div id="topbar"></div>
 	<div id="header"></div>
 	<div id="main">
-		
+		<div class="banner">
+			<div class="container">
+				<div class="img-list">
+					<a href="#"><img src="../image/index/banner/banner2.jpg" alt=""></a>
+					<a href="#"><img src="../image/index/banner/banner1.jpg" alt=""></a>
+					<a href="#"><img src="../image/index/banner/banner3.jpg" alt=""></a>
+					<a href="#"><img src="../image/index/banner/banner4.jpg" alt=""></a>
+					<a href="#"><img src="../image/index/banner/banner6.jpg" alt=""></a>
+					<a href="#"><img src="../image/index/banner/banner5.jpg" alt=""></a>
+				</div>
+				<div class="picks-list">
+					<ul>
+						<li class="picks-list-current flag"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="toLeft">
+					<i class="iconfont"></i>
+				</div>
+				<div class="toRight">
+					<i class="iconfont"></i>
+				</div>
+				<nav>
+					<div class="nav-item">
+						<div class="nav-item-box">
+							<a href="#">手机 电话卡</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul>
+								<!-- <li>
+									<div>
+										<img src="../image/public/menus/phone/xm6.png" alt="">
+										<span>小米6</span>
+									</div>
+									<input type="button" value="选购">
+								</li> -->
+							</ul>
+						</div>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item-box">
+							<a href="#">笔记本 平板</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul></ul>
+						</div>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item-box">
+							<a href="#">电视 盒子</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul></ul>	
+						</div>
+					</div>
+					<div class="nav-item" id="routerMenus">
+						<div class="nav-item-box">
+							<a href="#">路由器 智能硬件</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul></ul>		
+						</div>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item-box">
+							<a href="#">移动电源 电池 插线板</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul></ul>	
+						</div>
+					</div>
+					<div class="nav-item" id="earMenus">
+						<div class="nav-item-box">
+							<a href="#">耳机 音箱</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item-box">
+							<a href="#">保护套 贴膜</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul></ul>	
+						</div>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item-box">
+							<a href="#">线材 支架 存储卡</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul></ul>	
+						</div>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item-box">
+							<a href="#">箱包 服饰 鞋 眼镜</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul></ul>
+						</div>
+					</div>
+					<div class="nav-item">
+						<div class="nav-item-box">
+							<a href="#">米兔 生活周边</a>
+							<i class="iconfont">?</i>
+						</div>
+						<div class="nav-item-child">
+							<ul>
+								<li>
+									<!-- <div>
+										<img src="../image/public/menus/phone/xm6.png" alt="">
+										<span>小米6</span>
+									</div>
+									<input type="button" value="选购"> -->
+								</li>
+							</ul>	
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- part1 -->
+		<div class="part1">
+			<div class="container">
+				<div class="links">
+					<a href="#"><i class="iconfont">?</i>选购手机</a>
+					<a href="#"><i class="iconfont">?</i>企业团购</a>
+					<a href="#"><i class="iconfont">?</i>F码通道</a>
+					<a href="#"><i class="iconfont">?</i>米粉卡</a>
+					<a href="#"><i class="iconfont">?</i>以旧换新</a>
+					<a href="#"><i class="iconfont">?</i>话费充值</a>
+				</div>
+				<a href="#"><img src="../image/index/part1/1.jpg" alt=""></a>
+				<a href="#"><img src="../image/index/part1/2.jpg" alt=""></a>
+				<a href="#"><img src="../image/index/part1/3.jpg" alt=""></a>
+			</div>
+		</div>
+		<!-- starOne -->
+		<div class="startOne">
+			<div class="container">
+				<div class="title">
+					<span>小米明星单品</span>
+					<div class="slide">
+						<div class="toLeft"><</div>
+						<div class="toRight">></div>
+					</div>
+				</div>
+				<div class="box">
+					<ul>
+						<li>
+							<a href="#"><img src="../image/index/starone/1.png" alt=""></a>
+							<p class="name"><a href="#">红米4X</a></p>
+							<p class="flag">4100mAh超长续航，8 核处理器</p>
+							<p class="price">699元起</p>
+						</li>
+						<li>
+							<a href="#"><img src="../image/index/starone/2.png" alt=""></a>
+							<p class="name"><a href="#">小米MIX</a></p>
+							<p class="flag">最高下单立减500元</p>
+							<p class="price">3499元起</p>
+						</li>
+						<li>
+							<a href="#"><img src="../image/index/starone/3.png" alt=""></a>
+							<p class="name"><a href="#">小米Note</a> 2</p>
+							<p class="flag">最高减500元</p>
+							<p class="price">2499元起</p>
+						</li>
+						<li>
+							<a href="#"><img src="../image/index/starone/4.png" alt=""></a>
+							<p class="name"><a href="#">小米电视4A 43英寸</a></p>
+							<p class="flag">全高清HDR，智能语音</p>
+							<p class="price">1999元</p>
+						</li>
+						<li>
+							<a href="#"><img src="../image/index/starone/5.png" alt=""></a>
+							<p class="name"><a href="#">小米笔记本</a></p>
+							<p class="flag">更轻更薄，像杂志一样随身携带</p>
+							<p class="price">3599元起</p>
+						</li>
+						<li>
+							<a href="#"><img src="../image/index/starone/6.png" alt=""></a>
+							<p class="name"><a href="#">贝医生巴氏牙刷(四色装)</a></p>
+							<p class="flag">德日进口刷毛，专利科学布局</p>
+							<p class="price">39.9元</p>
+						</li>
+						<li>
+							<a href="#"><img src="../image/index/starone/7png.png" alt=""></a>
+							<p class="name"><a href="#">小米手环 2</a></p>
+							<p class="flag">OLED 显示屏幕，升级计步算法</p>
+							<p class="price">149元</p>
+						</li>
+						<li>
+							<a href="#"><img src="../image/index/starone/8.jpg" alt=""></a>
+							<p class="name"><a href="#">米家压力IH电饭煲</a></p>
+							<p class="flag">智能烹饪，压力IH加热技术</p>
+							<p class="price">999元</p>
+						</li>
+						<li>
+							<a href="#"><img src="../image/index/starone/9.png" alt=""></a>
+							<p class="name"><a href="#">米家空气净化器Pro</a></p>
+							<p class="flag">OLED显示屏幕，激光颗粒物传感器</p>
+							<p class="price">1499元</p>
+						</li>
+						<li>
+							<a href="#"><img src="../image/index/starone/10.png" alt=""></a>
+							<p class="name"><a href="#">小米路由器3</a></p>
+							<p class="flag">更快更强，不止四天线</p>
+							<p class="price">129元</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div id="footer"></div>
 </body>
@@ -31,3 +271,4 @@
 <script type="text/javascript" src="../js/jQuery.color.js"></script>
 <script type="text/javascript" src="../js/template.js"></script>
 <script type="text/javascript" src="../js/public.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>

@@ -1,0 +1,713 @@
+{
+	"phone" : [
+		{
+			"name" : "小米6", 
+			"srcs" : "../image/public/menus/phone/xm6.png",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "小米5X", 
+			"srcs" : "../image/public/menus/phone/xm5x.png",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "小米Max 2", 
+			"srcs" : "../image/public/menus/phone/xmMax2.jpg",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "小米手机5c", 
+			"srcs" : "../image/public/menus/phone/xm5c.png",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "小米Note 2", 
+			"srcs" : "../image/public/menus/phone/xmNote2.jpg",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "小米MIX", 
+			"srcs" : "../image/public/menus/phone/xmMix.jpg",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "小米5s", 
+			"srcs" : "../image/public/menus/phone/xm5s.jpg",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "小米5s Plus", 
+			"srcs" : "../image/public/menus/phone/xm5sp.jpg",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "红米Note 5A", 
+			"srcs" : "../image/public/menus/phone/hm5a.png",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "红米Note 4X", 
+			"srcs" : "../image/public/menus/phone/hmn4x.png",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "红米4X", 
+			"srcs" : "../image/public/menus/phone/hm4x.png",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "红米4", 
+			"srcs" : "../image/public/menus/phone/hm4.jpg",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "移动4G+专区", 
+			"srcs" : "../image/public/menus/phone/4g+.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "对比手机", 
+			"srcs" : "../image/public/menus/phone/compare.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "米粉卡 日租卡", 
+			"srcs" : "../image/public/menus/phone/mifenka-1.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米移动 电话卡", 
+			"srcs" : "../image/public/menus/phone/mimobile.jpg",
+			"srcm" : "",
+			"flag" : ""
+		}
+	],
+	"pad" : [
+		{
+			"name" : "笔记本 12.5英寸", 
+			"srcs" : "../image/public/menus/pad/bjb12.5.jpg",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "笔记本 13.3英寸", 
+			"srcs" : "../image/public/menus/pad/bjb13.3.jpg",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "笔记本Pro15.6英寸", 
+			"srcs" : "../image/public/menus/pad/bjbPro15.6.png",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "小米平板3", 
+			"srcs" : "../image/public/menus/pad/xmpad3.jpg",
+			"srcm" : "",
+			"flag" : "选购"
+		},
+		{
+			"name" : "USB-C电源适配器", 
+			"srcs" : "../image/public/menus/pad/usb-c.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "USB-C转接器", 
+			"srcs" : "../image/public/menus/pad/usb-c-change.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米笔记本内胆包", 
+			"srcs" : "../image/public/menus/pad/xmbjbbao.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "悦米机械键盘", 
+			"srcs" : "../image/public/menus/pad/jxjp.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米便携鼠标", 
+			"srcs" : "../image/public/menus/pad/shubiao.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米无线鼠标", 
+			"srcs" : "../image/public/menus/pad/wxsb.png",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "鼠标垫", 
+			"srcs" : "../image/public/menus/pad/xmsbd.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "DisplayPort转接器", 
+			"srcs" : "../image/public/menus/pad/usbc80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		}
+	],
+	"tv" : [
+		{
+			"name" : "小米电视4 49英寸", 
+			"srcs" : "../image/public/menus/tv/xmds4_49.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视 55英寸", 
+			"srcs" : "../image/public/menus/tv/xmds4_55.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视4 65英寸", 
+			"srcs" : "../image/public/menus/tv/xmds4_65.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视4A 32英寸", 
+			"srcs" : "../image/public/menus/tv/xmds4a_32.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视4A 43英寸", 
+			"srcs" : "../image/public/menus/tv/xmds4a_43.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视4A 49英寸", 
+			"srcs" : "../image/public/menus/tv/xmds4a_49.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视4A 55英寸", 
+			"srcs" : "../image/public/menus/tv/xmds4a_55.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视4A 65英寸", 
+			"srcs" : "../image/public/menus/tv/xmds4a_65.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视3s 55英寸", 
+			"srcs" : "../image/public/menus/tv/xmds3s_55.png",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视3s 65英寸", 
+			"srcs" : "../image/public/menus/tv/xmds3s_65.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米盒子3s", 
+			"srcs" : "../image/public/menus/tv/xmbox3s.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米盒子3c", 
+			"srcs" : "../image/public/menus/tv/xmbox3c.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米盒子3 增强版", 
+			"srcs" : "../image/public/menus/tv/xmbox3strong.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "家庭音响", 
+			"srcs" : "../image/public/menus/tv/homeMovie.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "安装服务", 
+			"srcs" : "../image/public/menus/tv/anzhuang.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "电视盒子配件", 
+			"srcs" : "../image/public/menus/tv/dianshipeijian.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米电视会员", 
+			"srcs" : "../image/public/menus/tv/huiyuan.png",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米儿童会员", 
+			"srcs" : "../image/public/menus/tv/ertong.png",
+			"srcm" : "",
+			"flag" : ""
+		}
+	],
+	"router" : [
+		{
+			"name" : "九号平衡车", 
+			"srcs" : "../image/public/menus/router/phcplus80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "米家扫地机器人及配件", 
+			"srcs" : "../image/public/menus/router/jiqiren.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米VR眼镜", 
+			"srcs" : "../image/public/menus/router/VRPLAY2.png",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米路由器", 
+			"srcs" : "../image/public/menus/router/luyouqi-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "电动折叠自行车", 
+			"srcs" : "../image/public/menus/router/zxc80-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "电水壶", 
+			"srcs" : "../image/public/menus/router/shuihu80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "米家车载空气净化器", 
+			"srcs" : "../image/public/menus/router/czjhq80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "手表", 
+			"srcs" : "../image/public/menus/router/dianhuashoubiao80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "米家智能电饭煲", 
+			"srcs" : "../image/public/menus/router/dianfanbao-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "智能摄像机/相机/微单", 
+			"srcs" : "../image/public/menus/router/xiaobai80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "净化器及滤芯", 
+			"srcs" : "../image/public/menus/router/jinghuaqilvxin80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "净水器及滤芯", 
+			"srcs" : "../image/public/menus/router/jingshuiqiandlvxin-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "手环及配件", 
+			"srcs" : "../image/public/menus/router/shouhuan280.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "牙刷", 
+			"srcs" : "../image/public/menus/router/yashua80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "智能灯", 
+			"srcs" : "../image/public/menus/router/zhinengdeng-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "米兔智能故事机", 
+			"srcs" : "../image/public/menus/router/gushiji80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "智能家庭组合", 
+			"srcs" : "../image/public/menus/router/zhinengjiatingtaozhuang-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "血压计", 
+			"srcs" : "../image/public/menus/router/xueyaji-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "体重秤/体脂秤", 
+			"srcs" : "../image/public/menus/router/scale.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "电动滑板车", 
+			"srcs" : "../image/public/menus/router/huabanche80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米无人机", 
+			"srcs" : "../image/public/menus/router/wurenji80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "米家行车记录仪", 
+			"srcs" : "../image/public/menus/router/jly80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+
+		{
+			"name" : "小米米家对讲机", 
+			"srcs" : "../image/public/menus/router/djj80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "全部智能配件", 
+			"srcs" : "../image/public/menus/router/znyjdaohang.jpg",
+			"srcm" : "",
+			"flag" : ""
+		}
+	],
+	"battery" : [
+		{
+			"name" : "小米移动电源", 
+			"srcs" : "../image/public/menus/battery/yidongdianyuan.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "插线板", 
+			"srcs" : "../image/public/menus/battery/c1xb343.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "品牌移动电源", 
+			"srcs" : "../image/public/menus/battery/dianyuan280.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "移动电源附件", 
+			"srcs" : "../image/public/menus/battery/dianyuanfujian.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "充电器", 
+			"srcs" : "../image/public/menus/battery/chongdianqi-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "彩虹5号电池", 
+			"srcs" : "../image/public/menus/battery/5Battery1.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "彩虹7号电池", 
+			"srcs" : "../image/public/menus/battery/7Battery1.jpg",
+			"srcm" : "",
+			"flag" : ""
+		}
+	],
+	"ear" : [
+		{
+			"name" : "小米头戴式耳机", 
+			"srcs" : "../image/public/menus/ear/toudai80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "头戴式耳机轻松版", 
+			"srcs" : "../image/public/menus/ear/tdsqs80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米降噪耳机", 
+			"srcs" : "../image/public/menus/ear/xmjzej80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米圈铁耳机 Pro", 
+			"srcs" : "../image/public/menus/ear/qtpro80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米圈铁耳机", 
+			"srcs" : "../image/public/menus/ear/quantie.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米胶囊耳机", 
+			"srcs" : "../image/public/menus/ear/jiaonang80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米活塞耳机清新版", 
+			"srcs" : "../image/public/menus/ear/huosai1.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米蓝牙耳机", 
+			"srcs" : "../image/public/menus/ear/bluetoothheadset.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米运动蓝牙耳机", 
+			"srcs" : "../image/public/menus/ear/yundong80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米运动蓝牙耳机mini", 
+			"srcs" : "../image/public/menus/ear/3-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "品牌耳机", 
+			"srcs" : "../image/public/menus/ear/pinpai80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米网络音响", 
+			"srcs" : "../image/public/menus/ear/wlyx80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米蓝牙音箱", 
+			"srcs" : "../image/public/menus/ear/pocketaudio.png",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米随身蓝牙音箱", 
+			"srcs" : "../image/public/menus/ear/suishen-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小钢炮音箱2", 
+			"srcs" : "../image/public/menus/ear/xiaogangpao2-hei-80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米方盒子蓝牙音箱2", 
+			"srcs" : "../image/public/menus/ear/fhz80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米方盒子蓝牙音箱", 
+			"srcs" : "../image/public/menus/ear/fhzlyyx80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米音乐闹钟", 
+			"srcs" : "../image/public/menus/ear/naozhong80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米米兔音箱", 
+			"srcs" : "../image/public/menus/ear/mituyinx80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "音乐蓝牙车充", 
+			"srcs" : "../image/public/menus/ear/chechong1.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米蓝牙音频接收器", 
+			"srcs" : "../image/public/menus/ear/20170707135935.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "小米AI音箱", 
+			"srcs" : "../image/public/menus/ear/80x80.jpg",
+			"srcm" : "",
+			"flag" : ""
+		}
+	],
+	"protect" : [
+		{
+			"name" : "贴膜", 
+			"srcs" : "../image/public/menus/protect/tiemo.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "保护套/保护壳", 
+			"srcs" : "../image/public/menus/protect/baohu.jpg",
+			"srcm" : "",
+			"flag" : ""
+		}
+	],
+	"line" : [
+		{
+			"name" : "线材", 
+			"srcs" : "../image/public/menus/line/xiancai.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "自拍杆", 
+			"srcs" : "../image/public/menus/line/zipaigan.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "手机支架", 
+			"srcs" : "../image/public/menus/line/zhijia.jpg",
+			"srcm" : "",
+			"flag" : ""
+		},
+		{
+			"name" : "存储卡", 
+			"srcs" : "../image/public/menus/line/cunchu.jpg",
+			"srcm" : "",
+			"flag" : ""
+		}
+	],
+	"wears" : [
+		{
+			"name" : "箱包", 
+			"srcs" : "../image/public/menus/wears/xiangbao-80.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		},
+		{
+			"name" : "90分旅行箱", 
+			"srcs" : "../image/public/menus/wears/lvxingxiang.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		},
+		{
+			"name" : "服饰", 
+			"srcs" : "../image/public/menus/wears/huise2-80.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		},
+		{
+			"name" : "运动鞋 板鞋", 
+			"srcs" : "../image/public/menus/wears/ydx80.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		},
+		{
+			"name" : "眼镜", 
+			"srcs" : "../image/public/menus/wears/tyj80.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		}
+	],
+	"mitu" : [
+		{
+			"name" : "米兔玩偶", 
+			"srcs" : "../image/public/menus/mitu/mitu-80.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		},
+		{
+			"name" : "生活周边", 
+			"srcs" : "../image/public/menus/mitu/zhoubian1.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		},
+		{
+			"name" : "《小米》会刊", 
+			"srcs" : "../image/public/menus/mitu/zazhi1021-80.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		},
+		{
+			"name" : "毛巾/浴巾", 
+			"srcs" : "../image/public/menus/mitu/mj80.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		},
+		{
+			"name" : "8H乳胶床品", 
+			"srcs" : "../image/public/menus/mitu/rjcd80.jpg",
+			"srcm" : "",
+			"flag" : ""	
+		}
+	]
+}
