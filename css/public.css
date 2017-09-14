@@ -356,6 +356,11 @@ a:hover {
   line-height: 46px;
   text-align: center;
 }
+.header .header-search .header-search-button i {
+  color: #999;
+  font-size: 22px;
+  font-weight: bold;
+}
 .footer-service {
   height: 79px;
   border-bottom: 1px solid #dfdfdf;
@@ -373,6 +378,10 @@ a:hover {
   display: inline-block;
   width: 244px;
   border-right: 1px solid #dfdfdf;
+}
+.footer-service ul li a i {
+  font-size: 22px;
+  margin-right: 10px;
 }
 .footer-service ul li:last-child a {
   border: none;
@@ -424,6 +433,10 @@ a:hover {
   color: #ff6801;
   font-size: 12px;
   margin-top: 12px;
+}
+.footer-nav .footer-nav-contact a i {
+  font-size: 20px;
+  font-weight: bold;
 }
 .footer-info {
   height: 130px;

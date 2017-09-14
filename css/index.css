@@ -4,7 +4,7 @@
 .header-mainnav {
   display: none;
 }
-.header-nav ul {
+.header-nav > ul {
   padding-left: 100px;
 }
 .color {
@@ -149,7 +149,7 @@ nav .nav-item:nth-child(10) .nav-item-child {
   z-index: 1;
   border-top: 1px solid #dfdfdf;
   box-sizing: border-box;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 .nav-item-child ul {
   height: 460px;
@@ -213,6 +213,9 @@ nav .nav-item:nth-child(10) .nav-item-child {
   justify-content: center;
   align-items: center;
 }
+.part1 .container .links a i {
+  font-size: 24px;
+}
 .part1 .container .links a:hover {
   color: #fff;
 }
@@ -235,6 +238,10 @@ nav .nav-item:nth-child(10) .nav-item-child {
 }
 .part1 .container img {
   height: 170px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.part1 .container img:hover {
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
 }
 .startOne .container {
   position: relative;
@@ -256,7 +263,7 @@ nav .nav-item:nth-child(10) .nav-item-child {
   display: flex;
   text-align: center;
   line-height: 22px;
-  font-size: 18px;
+  font-size: 14px;
   color: #999;
   justify-content: space-around;
 }
@@ -264,7 +271,11 @@ nav .nav-item:nth-child(10) .nav-item-child {
   width: 34px;
   height: 22px;
   cursor: pointer;
+  color: #ccc;
   border: 1px solid #dfdfdf;
+}
+.startOne .container .title .slide .toRight {
+  color: #666;
 }
 .startOne .container .title .slide div:hover {
   color: #ff6700;
@@ -323,4 +334,561 @@ nav .nav-item:nth-child(10) .nav-item-child {
 .startOne .container .box ul li:nth-child(5),
 .startOne .container .box ul li:nth-child(10) {
   border-color: #00c4a4;
+}
+.allProducts {
+  padding-top: 35px;
+  background: #f5f5f5;
+}
+.allProducts .container > div {
+  height: 695px;
+  margin-top: 20px;
+}
+.allProducts .container > div .prod-title {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.allProducts .container > div .prod-title span {
+  font-size: 22px;
+  line-height: 60px;
+}
+.allProducts .container > div .prod-title ul {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.allProducts .container > div .prod-title ul li {
+  height: 25px;
+  cursor: pointer;
+  margin-left: 15px;
+  line-height: 25px;
+  border-bottom: 2px solid #f5f5f5;
+}
+.allProducts .container > div .prod-title ul li:nth-child(1) {
+  color: #ff6700;
+  border-color: #ff6700;
+}
+.allProducts .container > div .content {
+  display: flex;
+  justify-content: space-between;
+}
+.allProducts .container > div .content .imgInfo {
+  width: 234px;
+  height: 615px;
+  background: #fff;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.allProducts .container > div .content .imgInfo img {
+  width: 234px;
+  transition: all 0.2s ease-in-out;
+}
+.allProducts .container > div .content .imgInfo img:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.allProducts .container > div .content .infoList {
+  width: 978px;
+  height: 615px;
+}
+.allProducts .container > div .content .infoList ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.allProducts .container > div .content .infoList ul li {
+  width: 234px;
+  height: 300px;
+  overflow: hidden;
+  font-size: 10px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 14px;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+}
+.allProducts .container > div .content .infoList ul li > span {
+  display: block;
+  margin: 0 auto;
+  width: 64px;
+  height: 20px;
+  color: #fff;
+  background: #83c44e;
+  line-height: 20px;
+}
+.allProducts .container > div .content .infoList ul li img {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto 25px auto;
+}
+.allProducts .container > div .content .infoList ul li .name {
+  font-size: 13px;
+}
+.allProducts .container > div .content .infoList ul li .describe {
+  color: #ccc;
+  margin: 5px 0 10px 0;
+}
+.allProducts .container > div .content .infoList ul li .price {
+  font-size: 13px;
+}
+.allProducts .container > div .content .infoList ul li .price .now {
+  color: #ff6700;
+}
+.allProducts .container > div .content .infoList ul li .price .old {
+  color: #ccc;
+}
+.allProducts .container > div .content .infoList ul li .comment {
+  height: 65px;
+  text-align: left;
+  padding: 10px 20px 0 20px;
+  position: absolute;
+  left: 0;
+  bottom: -75px;
+  color: #fff;
+  background: #ff6700;
+}
+.allProducts .container > div .content .infoList ul li .comment p a {
+  color: #fff;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+.allProducts .container > div .content .infoList ul li .comment span a {
+  color: #ffc298;
+}
+.allProducts .container > div .content .infoList ul li:not(:last-child):hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.allProducts .container > div .content .infoList ul li:last-child {
+  background: #f5f5f5;
+  display: flex;
+  flex-flow: column;
+  overflow: visible;
+  justify-content: space-between;
+}
+.allProducts .container > div .content .infoList ul li:last-child div {
+  width: 184px;
+  height: 145px;
+  padding: 0 20px 0 30px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  justify-content: space-around;
+}
+.allProducts .container > div .content .infoList ul li:last-child div a {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100px;
+  text-align: left;
+  line-height: 30px;
+}
+.allProducts .container > div .content .infoList ul li:last-child div a .price {
+  color: #ff6700;
+}
+.allProducts .container > div .content .infoList ul li:last-child div a .name {
+  font-size: 16px;
+}
+.allProducts .container > div .content .infoList ul li:last-child div a .thisTitle {
+  color: #aaa;
+}
+.allProducts .container > div .content .infoList ul li:last-child div img {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+}
+.allProducts .container > div .content .infoList ul li:last-child div .iconfont {
+  font-size: 36px;
+  color: #ff6700;
+}
+.allProducts .container > div .content .infoList ul li:last-child div:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.recommend {
+  background: #f5f5f5;
+}
+.recommend .container {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+.recommend .container .title {
+  height: 60px;
+  font-size: 22px;
+}
+.recommend .container .title span {
+  float: left;
+  line-height: 60px;
+}
+.recommend .container .title .slide {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  display: flex;
+  text-align: center;
+  line-height: 22px;
+  font-size: 18px;
+  color: #999;
+  justify-content: space-around;
+}
+.recommend .container .title .slide div {
+  width: 34px;
+  height: 22px;
+  cursor: pointer;
+  color: #ccc;
+  border: 1px solid #dfdfdf;
+}
+.recommend .container .title .slide .toRight {
+  color: #666;
+}
+.recommend .container .title .slide div:hover {
+  color: #ff6700;
+}
+.recommend .container .box {
+  width: 100%;
+  margin-bottom: 40px;
+  position: absolute;
+  left: 0;
+}
+.recommend .container .box ul {
+  width: 2470px;
+  height: 340px;
+  display: flex;
+  justify-content: space-between;
+}
+.recommend .container .box ul li {
+  width: 235px;
+  height: 340px;
+  float: left;
+  font-size: 13px;
+  margin-right: 10px;
+  background: #fafafa;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+.recommend .container .box ul li img {
+  width: 160px;
+  height: 160px;
+  margin: 30px auto;
+}
+.recommend .container .box ul li .flag {
+  color: #b8afb4;
+  font-size: 10px;
+  margin: 7px 0 15px 0;
+}
+.recommend .container .box ul li .price {
+  color: #ff6700;
+}
+.recommend .container .box ul li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.hot-comment {
+  background: #f5f5f5;
+  height: 500px;
+}
+.hot-comment .container .title {
+  height: 60px;
+  font-size: 22px;
+}
+.hot-comment .container ul {
+  height: 415px;
+  display: flex;
+  justify-content: space-between;
+}
+.hot-comment .container ul li {
+  width: 295px;
+  background: #fff;
+  font-size: 13px;
+  transition: all 0.2s ease-in-out;
+}
+.hot-comment .container ul li img {
+  width: 100%;
+}
+.hot-comment .container ul li p {
+  padding: 0 20px 0 20px;
+}
+.hot-comment .container ul li .content {
+  height: 70px;
+  padding-top: 30px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+.hot-comment .container ul li .user {
+  color: #aaa;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.hot-comment .container ul li .product {
+  padding-right: 10px;
+}
+.hot-comment .container ul li .price {
+  padding-left: 10px;
+  border-left: 1px solid #ddd;
+  color: #ff6700;
+}
+.hot-comment .container ul li a:hover {
+  color: #000;
+}
+.hot-comment .container ul li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.index-content {
+  background: #f5f5f5;
+  height: 500px;
+}
+.index-content .container .title {
+  height: 60px;
+  font-size: 22px;
+}
+.index-content .container .content-info {
+  height: 415px;
+  display: flex;
+  justify-content: space-between;
+}
+.index-content .container .content-info li {
+  width: 295px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  font-size: 13px;
+  text-align: center;
+  border-top: 1px solid #000;
+  transition: all 0.2s ease-in-out;
+}
+.index-content .container .content-info li p {
+  margin-top: 45px;
+  font-size: 15px;
+}
+.index-content .container .content-info li .content {
+  width: 1180px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.index-content .container .content-info li .content div {
+  width: 295px;
+  height: 330px;
+  float: left;
+}
+.index-content .container .content-info li .content div .title {
+  color: #000;
+  font-size: 20px;
+  height: 35px;
+}
+.index-content .container .content-info li .content div .title a {
+  color: #000;
+}
+.index-content .container .content-info li .content div span {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+}
+.index-content .container .content-info li .content div span a {
+  color: #bbb;
+}
+.index-content .container .content-info li .content div .price {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.index-content .container .content-info li .content div button {
+  margin-top: 15px;
+  width: 120px;
+  height: 28px;
+  line-height: 28px;
+  background: #fff;
+  font-size: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.index-content .container .content-info li .content div img {
+  margin: 0 auto;
+}
+.index-content .container .content-info li .content-list {
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.index-content .container .content-info li .content-list li {
+  width: 6px;
+  height: 6px;
+  background: #b0b0b0;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+.index-content .container .content-info li .content-list li:hover {
+  transform: none;
+}
+.index-content .container .content-info li .content-list li:first-child {
+  background: #fff;
+  border-color: #ff6700;
+}
+.index-content .container .content-info li .toLeft,
+.index-content .container .content-info li .toRight {
+  display: none;
+  width: 20px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 0;
+  cursor: pointer;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.index-content .container .content-info li .toRight {
+  right: 0;
+}
+.index-content .container .content-info li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.index-content .container .content-info li:nth-child(1) {
+  border-color: #ffac0e;
+  color: #ffac0e;
+}
+.index-content .container .content-info li:nth-child(1) div button {
+  color: #ffac0e;
+  border-color: #ffac0e;
+}
+.index-content .container .content-info li:nth-child(2) {
+  border-color: #83c450;
+  color: #83c450;
+}
+.index-content .container .content-info li:nth-child(2) div button {
+  color: #83c450;
+  border-color: #83c450;
+}
+.index-content .container .content-info li:nth-child(3) {
+  border-color: #e03c33;
+  color: #e03c33;
+}
+.index-content .container .content-info li:nth-child(3) div button {
+  color: #e03c33;
+  border-color: #e03c33;
+}
+.index-content .container .content-info li:nth-child(4) {
+  border-color: #2097f5;
+  color: #2097f5;
+}
+.index-content .container .content-info li:nth-child(4) div button {
+  color: #2097f5;
+  border-color: #2097f5;
+}
+.mi-movie {
+  background: #f5f5f5;
+  height: 400px;
+}
+.mi-movie .container .title {
+  height: 60px;
+}
+.mi-movie .container .title span {
+  height: 60px;
+  font-size: 22px;
+  float: left;
+}
+.mi-movie .container .title a {
+  height: 40px;
+  margin-top: 20px;
+  line-height: 40px;
+  float: right;
+}
+.mi-movie .container .title a i {
+  line-height: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.mi-movie .container .movie-box {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.mi-movie .container .movie-box div {
+  width: 295px;
+  height: 285px;
+  background: #fff;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.mi-movie .container .movie-box div:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.mi-movie .container .movie-box p {
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.mi-movie .container .movie-box span {
+  font-size: 12px;
+  color: #666;
+}
+.mi-movie .container .movie-box i {
+  color: #fff;
+  position: absolute;
+  left: 10px;
+  top: 145px;
+  z-index: 10;
+  cursor: pointer;
+  font-size: 26px;
+}
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.video {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+}
+.video div {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 100px;
+  left: 20%;
+}
+.video div p {
+  padding: 0 15px 0 15px;
+  height: 40px;
+  line-height: 40px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.8);
+}
+.video div p span {
+  font-size: 20px;
+}
+.video div p i {
+  float: right;
+  cursor: pointer;
+  font-size: 18px;
+}
+.video div p i:hover {
+  color: #ff6700;
+}
+.video div video {
+  width: 800px;
 }
